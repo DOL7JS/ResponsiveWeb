@@ -1,0 +1,46 @@
+
+@media only screen and (max-width: 600px){
+
+    .centerImages{
+        width: 100%;
+        margin: auto;
+    }
+    footer{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    footer div{
+        font-size: 30px;
+    }
+    footer li{
+        font-size: 15px;
+    }
+    header nav{
+        display: grid;
+        top:35px
+    }
+    input,select{
+        box-sizing: content-box;
+        width: 30%;
+        padding: 10px;
+    }
+    .centerImages{
+        width: 100%;
+    }
+    .centerForm{
+        width: 80%;
+        margin: auto;
+        padding-top:50px ;
+    }
+    #image{
+        margin: auto;
+    }
+}
+@media only print {
+    header,footer {
+        display: none;
+    }
+    .row input[type="submit"]{
+        display: none;
+    }
+}

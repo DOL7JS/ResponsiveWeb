@@ -1,0 +1,29 @@
+
+input,select{
+    box-sizing: content-box;
+    width: 50%;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+label {
+    padding: 10px;
+    width: 200px;
+    display: block;
+    font-size: 20px;
+}
+input[type=checkbox] {
+    vertical-align: sub;
+    margin: auto;
+}
+.centerForm{
+    width: 500px;
+    margin: 100px auto auto auto;
+}
+footer{
+    margin-top: 200px;
+}
